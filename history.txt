@@ -1,0 +1,500 @@
+   79  ls -l
+   80  vagrant reload
+   81  vagrant ssh
+   82  kill 86013
+   83  exit
+   84  ./ngrock http 8080
+   85  defaults write com.apple.Finder AppleShowAllFiles YES
+   86  killall Finder
+   87  defaults write com.apple.Finder AppleShowAllFiles YES
+   88  killall Finder
+   89  python
+   90  cd ~/Desktop/
+   91  python anyname.py 
+   92  10
+   93  anyname.py
+   94  pwd
+   95  ls
+   96  python anyname02.py 
+   97  python anyname02.py 
+   98  pwd
+   99  python whileloop.py
+  100  python whileloop.py
+  101  python whileloop.py
+  102  python basic-function.py
+  103  python basic-function.py
+  104  python basic-function.py
+  105  python basic-function.py
+  106  python basic-function.py
+  107  python basic-function.py
+  108  python Class.py 
+  109  python Class.py 
+  110  python Class.py 
+  111  python Class.py 
+  112  python Class.py 
+  113  python Class.py 
+  114  python Class.py 
+  115  python Class.py 
+  116  python Class.py 
+  117  python Class.py 
+  118  python Class.py 
+  119  python Class.py 
+  120  python Class.py 
+  121  python Class.py 
+  122  python Class.py 
+  123  python Class.py 
+  124  python Class.py 
+  125  mkvirtualenv
+  126  python
+  127  pip install virtualenvwrapper
+  128  python
+  129  python
+  130  python3
+  131  reset
+  132  virtualenv codingshophouse
+  133  pip iv=nstall virtualenv
+  134  pip install virtualenv
+  135  virtualenv codingshophouse
+  136  conda install virtualenv
+  137  virtualenv codingshophouse
+  138  mkvirtualenv
+  139  pip install virtualenvwrapper
+  140  export LC_ALL="C"
+  141  pip install virtualenvwrapper
+  142  source virtualenvwrapper.sh
+  143  virtualenv codingshophouse
+  144  pip help
+  145  pip uninstall virtualenv
+  146  pip uninstall virtualenvwrapper
+  147  conda install virtualenvwrapper
+  148  anaconda search -t conda virtualenvwrapper
+  149  anaconda show Eumetsat/virtualenvwrapper
+  150  conda install --channel https://conda.anaconda.org/Eumetsat virtualenvwrapper
+  151  conda install --channel https://conda.anaconda.org/Eumetsat virtualenvwrapper
+  152  anaconda search -t conda virtualenvwrapper
+  153  conda install virtualenv
+  154  virtualenv codingshophouse
+  155  pip uninstall virtualenvwrapper
+  156  conda remove virtualenvwrapper
+  157  conda remove virtualenv
+  158  anaconda search -t conda virtualenvwrapper
+  159  pip install virtualenvwrapper
+  160  source virtualenvwrapper.sh
+  161  mkvirtualenv
+  162  pip install virtualenv
+  163  mkvirtualenv
+  164  conda remove virtualenv
+  165  pip uninstall virtualenv
+  166  pip uninstall virtualenvwrapper
+  167  pip install virtualenvwrapper
+  168  virtualenv
+  169  virtualenv codingshophouse
+  170  pip uninstall virtualenvwrapper
+  171  pip uninstall virtualenv
+  172  conda install virtualenv
+  173  virtualenv codingshophouse
+  174  sudo virtualenv codingshophouse
+  175  virtualenv -p python codingshophouse
+  176  which virtualenv
+  177  which virtualenvwrapper.sh
+  178  virtualenvwrapper.sh
+  179  pip install virtualenvwrapper
+  180  which virtualenvwrapper.sh
+  181  source virtualenvwrapper.sh
+  182  virtualenv -p python codingshophouse
+  183  virtualenv codingshophouse
+  184  conda create --name codingshophouse python
+  185  source activate codingshophouse
+  186  sourceactivate codingshophouse
+  187  source activate codingshophouse
+  188  pip install jupyter
+  189  jupyter notebook
+  190  source activate codingshophouse
+  191  source activate jupyter
+  192  jupyter notebook
+  193  source activate codingshophouse
+  194  jupyter notebook
+  195  source activate codingshophouse
+  196  git https://github.com/sweemeng/codingshophouse-python-basic-2017.git
+  197  git clone https://github.com/sweemeng/codingshophouse-python-basic-2017.git 
+  198  jupyter notebook
+  199  jupyter notebook
+  200  source activate codingshophouse
+  201  jupyter notebook
+  202  source activate codingshophouse
+  203  jupyter notebook
+  204  source activate codingshophouse
+  205  jupyter notebook
+  206  cd desktop
+  207  ls
+  208  cd tcs-python
+  209  ls
+  210  cd toto_generator.py
+  211  python toto_generator.py
+  212  python toto_generator.py
+  213  python toto_generator.py
+  214  python toto_generator.py
+  215  ipython
+  216  python toto_generator.py
+  217  python toto_generator.py
+  218  python toto_generator.py
+  219  ipython
+  220  python toto_generator.py
+  221  ipython
+  222  source activate codingshophouse
+  223  exit
+  224  cd desktop
+  225  ls
+  226  cd tcs-python
+  227  source activate codingshophouse
+  228  back
+  229  logout
+  230  source activate codingshophouse
+  231  jupyter notebook
+  232  source activate codingshophouse
+  233  jupyter notebook
+  234  source activate coding shophouse
+  235  source activate codingshophouse
+  236  ipython
+  237  ipython
+  238  import json
+  239  ipython
+  240  jupyter notebook
+  241  source activate codingshophouse
+  242  ipython
+  243  source activate codingshophouse
+  244  pip install matplotlib
+  245  pip install pandas
+  246  source activate coding shophouse
+  247  source activate codingshophouse
+  248  jupyter notebook
+  249  git clone https://github.com/ElaineCheong28/popit_ng_wrapper.git
+  250  cd popit ng wrapper
+  251  cd popit_ng wrapper
+  252  cd popit_ng_wrapper
+  253  exit() ls
+  254  cd python_project
+  255  ls
+  256  cd popit_ng_wrapper
+  257  ls
+  258  conda create -n popit_ng_wrapper python=3.5
+  259  ls
+  260  conda install nose 
+  261  git status
+  262  source activate popit_ng_wrapper
+  263  conda create -n popit_ng_wrapper python=3.5
+  264  conda install nose 
+  265  conda create -n popit_ng_wrapper python=3.5
+  266  conda install ipython 
+  267  conda install request 
+  268  conda install requests
+  269  ipython
+  270  git fetch upstream
+  271  git remove -v
+  272  git remote -v
+  273  git remote add upstream http://github.com/sweemeng/popit_ng_wrapper.git
+  274  ls
+  275  git remote add upstream https://github.com/sweemeng/popit_ng_wrapper.git
+  276  ls
+  277  git remote add upstream https://github.com/sweemeng/popit_ng_wrapper.git
+  278  ls
+  279  rm popit_ng.py
+  280  ls
+  281  git remote add upstream https://github.com/sweemeng/popit_ng_wrapper.git
+  282  ls
+  283  git fetch upstream
+  284  ls
+  285  git checkout master
+  286  git merge upstream/master
+  287  ls
+  288  git remote add upstream https://github.com/sweemeng/popit_ng_wrapper.git
+  289  git --help
+  290  git status
+  291  pwd
+  292  mk djangoproject
+  293  mkdir djangoproject
+  294  cd djangoproject
+  295  ls
+  296  conda install django 
+  297  django-admin startproject thecodingshophouse
+  298  cd thecodingshophouse
+  299  source activate thecodingshophouse
+  300  python manage.py migrate
+  301  python manage.py startapp blog
+  302  vim thecodingshpphouse/settings.py
+  303  pwd
+  304  ls
+  305  cd blog
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd thecodingshophouse
+  310  ls
+  311  vim settings.py
+  312  vim settings.py
+  313  dwp
+  314  dmp
+  315  source activate python_project
+  316  exit()
+  317  cd djangoproject
+  318  ls
+  319  source activate thecodingshophouse
+  320  ls
+  321  sqlite3 db.sqlite3
+  322  source activate django_project
+  323  ls
+  324  source activate djangoproject
+  325  ls
+  326  exit()
+  327  cd djangoproject
+  328  ls
+  329  source activate thecodingshophouse
+  330  ls 
+  331  cd thecodingshophouse
+  332  ls
+  333  cd blog
+  334  ls
+  335  cd..
+  336  cd ..
+  337  ls
+  338  python manage.py makemigration
+  339  python manage.py makemigrations
+  340  python manage.py migrate
+  341  sqlite3 db.sqlite3
+  342  cd djangoproject
+  343  cd thecodingshophouse
+  344  ls
+  345  source activate thecodingshophouse
+  346  ls
+  347  python manage.py runserver 0.0.0.0:8080
+  348  python manage.py runserver 0.0.0.0:8080
+  349  python manage.py createsuperuser
+  350  python manage.py runserver 0.0.0.0:8080
+  351  cd djangoproject
+  352  ls
+  353  cd thecodingshophouse
+  354  source activate thecodingshophouse
+  355  python manage.py runserver 0.0.0.0:8080
+  356  cd djangoproject
+  357  source activate thecodingshophouse
+  358  ls
+  359  cd thecodingshophouse
+  360  ls
+  361  python manage.py makemigrations
+  362  python manage.py migrate
+  363  python manage.py runserver 0.0.0.0:8080
+  364  python manage.py makemigrations
+  365  python manage.py migrate
+  366  python manage.py runserver 0.0.0.0:8080
+  367  ls
+  368  cd python_project
+  369  ls
+  370  mk dir revision
+  371  mkdir revision
+  372  ls
+  373  cd revision
+  374  ls
+  375  python for-loops.py
+  376  python for-loops.py
+  377  python for-loops.py
+  378  python for-loops.py
+  379  python for-loops.py
+  380  python for-loops.py
+  381  python for-loops.py
+  382  python for-loops.py
+  383  python for-loops.py
+  384  python for-loops.py
+  385  python for-loops.py
+  386  python for-loops.py
+  387  python for-loops.py
+  388  python for-loops.py
+  389  python for-loops.py
+  390  python for-loops.py
+  391  python for-loops.py
+  392  python for-loops.py
+  393  python for-loops.py
+  394  python for-loops.py
+  395  python string.py
+  396  python string.py
+  397  python string.py
+  398  python string.py
+  399  python string.py
+  400  python string.py
+  401  python string.py
+  402  python string.py
+  403  python string.py
+  404  python string.py
+  405  python string.py
+  406  python permutations.py
+  407  python permutations.py
+  408  python permutations.py
+  409  python for-loops.py
+  410  python permutations.py
+  411  python for-loops.py
+  412  cd djangoproject
+  413  ls
+  414  cd thecodingshophouse
+  415  ../
+  416  cd..
+  417  ../cd
+  418  help
+  419  source activate thecodingshophouse
+  420  ls
+  421  cd blog
+  422  vim blog/url.py
+  423  ls
+  424  cd djangoproject
+  425  ls
+  426  source activate thecodingshophouse
+  427  ls
+  428  cd thecodingshophouse
+  429  ls
+  430  cd blog
+  431  ls
+  432  vim templates
+  433  ls
+  434  cd djangoproject
+  435  ls
+  436  cd thecodingshophouse
+  437  ls
+  438  cd blog
+  439  ls
+  440  ls
+  441  cd..
+  442  cd../
+  443  ../
+  444  cd ../
+  445  ls
+  446  cd ../
+  447  ls
+  448  source activate thecodingshophouse
+  449  ls
+  450  cd thecodingshophouse
+  451  python manage.py runserver
+  452  ls
+  453  cd blog
+  454  ls
+  455  cd ../
+  456  ls
+  457  python manage.py runserver
+  458  ls
+  459  cd blog
+  460  ls
+  461  cd ../
+  462  ls
+  463  cd thecodingshophouse
+  464  ls
+  465  vim urls.py
+  466  python manage.py runserver
+  467  cd ../
+  468  python manage.py runserver
+  469  python manage.py createsuperuser
+  470  python manage.py runserver
+  471  python manage.py runserver
+  472  python manage.py runserver
+  473  ls
+  474  cd djangoproject
+  475  ls
+  476  cd thecodingshophouse
+  477  ls
+  478  python manage.py startapp sillylogin
+  479  ls
+  480  cd sillylogin
+  481  ls
+  482  cd djangoproject
+  483  ls
+  484  cd thecodingshophouse
+  485  ls
+  486  cd ..
+  487  ls
+  488  source activate thecodingshophouse
+  489  ls
+  490  cd thecodingshophouse
+  491  ls
+  492  pip install django-widget-tweaks
+  493  ls
+  494  python manage.py runserver
+  495  pip install django_registration 
+  496  python manage.py runserver
+  497  python manage.py runserver
+  498  python manage.py runserver
+  499  python manage.py runserver
+  500  python manage.py runserver
+  501  l
+  502  ls
+  503  cd djangoproject
+  504  ls
+  505  source activate thecodingshophouse
+  506  ls
+  507  git remote add upstream https://github.com/TheCodingShophouse/codingshophouse_py_2017
+  508  ls
+  509  cd thecodingshophouse
+  510  ls
+  511  cd ..
+  512  ls
+  513  git clone https://github.com/ElaineCheong28/codingshophouse_py_2017.git
+  514  git remote add upstream https://github.com/TheCodingShophouse/codingshophouse_py_2017
+  515  git remote add upstream https://github.com/TheCodingShophouse/codingshophouse_py_2017
+  516  cd codingshophouse_py_2017
+  517  git remote add upstream https://github.com/TheCodingShophouse/codingshophouse_py_2017
+  518  ls
+  519  vim MEMBERS.md 
+  520  git fetch upstream
+  521  ls
+  522  vim MEMBERS.md 
+  523  git fetch upstream/master
+  524  git fetch upstream
+  525  ls
+  526  vim MEMBERS.md 
+  527  git merge upstream/master
+  528  git status
+  529  git add MEMBERS.md 
+  530  git commit
+  531  git merge upstream/master
+  532  vim MEMBERS.md 
+  533  git commit
+  534  git add MEMBERS.md 
+  535  git commit
+  536  git push
+  537  git push origin master
+  538  ls
+  539  vim MEMBERS.md 
+  540  diff MEMBERS.md README.txt 
+  541  diff MEMBERS.md NEWMEMBER.md 
+  542  git fetch upstream
+  543  git merge upstream/master
+  544  git status
+  545  git add *
+  546  git commit -m "3 names"
+  547  git status
+  548  git fetch upstream
+  549  git merge upstream/master
+  550  git merge upstream/master
+  551  git fetch upstream
+  552  git merge upstream/master
+  553  git status
+  554  git add *
+  555  git commit -m "Many names"
+  556  git merge upstream/master
+  557  git status
+  558  git push origin master
+  559  git log
+  560  git status
+  561  git fetch
+  562  git status
+  563  git add *
+  564  git status
+  565  git commit -m "added hello"
+  566  git push origin master
+  567  git fetch
+  568  git merge upstream/master
+  569  git log
+  570  git status
+  571  git status
+  572  git add *
+  573  git status
+  574  git commit -m "created template"
+  575  git status
+  576  git push origin master
+  577  history
+  578  history > history.txt
