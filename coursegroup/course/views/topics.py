@@ -6,7 +6,9 @@ from django.shortcuts import render
 from django.http import Http404
 from course.models import Topic
 from course.models import Discussion
-
+from django.views.generic import ListView
+from django.urls import reverse_lazy
+from course.models import Topic
 
 class TopicListView(ListView):
     model = Topic
