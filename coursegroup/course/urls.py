@@ -1,7 +1,9 @@
 from django.conf.urls import url
+from course.views import TopicDetailView
 
-from . import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r"^(?P<topic_id>\d+)$", TopicDetailView.as_view(), name="topic-detail"),
 ]
+
+
