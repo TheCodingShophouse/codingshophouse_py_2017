@@ -1,6 +1,5 @@
 from django.conf.urls import url
 from course.views import TopicListView
-from course.views import TopicView
 from course.views import TopicCreateView
 from course.views import TopicEditView
 from course.views import TopicDetailView
