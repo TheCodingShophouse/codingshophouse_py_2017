@@ -8,7 +8,7 @@ from course.models import Topic
 from course.models import Discussion
 from django.views.generic import ListView
 from django.urls import reverse_lazy
-from course.models import Topic
+
 
 class TopicListView(ListView):
     model = Topic
@@ -54,6 +54,7 @@ class TopicDetailView (View):
         discussion = Discussion()
         discussion.content = form_data.get("content")
         discussion.topic = topic
-        discussion.save() discussions = topic.discussions.all()
+        discussion.save() 
+        discussions = topic.discussions.all()
         return redirect("topic-edit", topic_id=topic.id)
 
