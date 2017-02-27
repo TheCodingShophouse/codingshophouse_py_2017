@@ -1,0 +1,6 @@
+- model: course.topic
+  pk: 1
+  fields: {title: Trial 1, description: Testing 123}
+- model: course.discussion
+  pk: 1
+  fields: {topic: 1, content: this is a trial}
