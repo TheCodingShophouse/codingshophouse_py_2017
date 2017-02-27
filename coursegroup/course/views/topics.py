@@ -15,12 +15,14 @@ class TopicListView(ListView):
 
 class TopicCreateView(CreateView):
     model = Topic
-    fields = ["title", "content"]
+    fields = ["title", "description"]
+    success_url = reverse_lazy("topic-list")
 
 
 class TopicEditView(UpdateView):
     model = Topic
-    fields = ["title", "content"]
+    fields = ["title", "description"]
+    success_url = reverse_lazy("topic-list")
 
 
 class TopicDeleteView(DeleteView):
@@ -42,8 +44,8 @@ class TopicDetailView (View):
             topic = Topic.objects.get(id=topic_id)
         except Topic.DoesNotExist:
             raise Http404("Does Not Exist")
-        discussions = topic.discussions.all()
-        return render(requests, "topic_detail.html", {"topic": topic, "discussion": discussions})
+        discussions = topic.discussion_set.all()
+        return render(requests, "course/topic_detail.html", {"topic": topic, "discussions": discussions})
 
     def post(self, requests, topic_id):
         form_data = requests.POST

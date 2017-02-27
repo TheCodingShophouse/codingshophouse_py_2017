@@ -1,5 +1,11 @@
 {% extends "base.html" %}
+{%block CourseTitle%}Course{% endblock %}
 {% block content %}
-    <p>{{object.title}}</p>
-    <p>{{object.content}}</p>
+    <p>{{topic.title}}</p>
+    <p>{{topic.description}}</p>
+	<ul>
+{% for discussion in discussions %}
+    <li>{{ discussion.content}}</li>
+{% endfor %}
+</ul>
 {% endblock %}
