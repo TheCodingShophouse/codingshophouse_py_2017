@@ -44,7 +44,7 @@
     <body>
         <div class="container-fluid bg-img">
             <div class="jumbotron" style="background:none;">
-                <h1>Python: Zero to Hero</h1><!--{%block CourseTitle%}-->
+                <h1>{%block CourseTitle%}{% endblock %}</h1>
             </div><!--end row-->
         </div><!--end container-fluid-->
         <div class="container">
@@ -67,6 +67,7 @@
                 </div>
             </nav>
             <div class="clear"></div>
+			{% block content %}{% endblock %}
         </div><!--end container-->
         <footer>
             <div class="container">
