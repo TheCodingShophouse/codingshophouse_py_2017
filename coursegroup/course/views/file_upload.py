@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 
+from course.models.topic import Topic
 from course.models.file_upload import Document
 from course.forms import DocumentForm
 
@@ -9,7 +10,7 @@ from course.forms import DocumentForm
 
 def home(request):
     documents = Document.objects.all()
-    return render(request, 'course/file_upload_home.html', { 'document': documents })
+    return render(request, 'course/file_upload_home.html', { 'documents': documents })
 
 
 def simple_upload(request):
