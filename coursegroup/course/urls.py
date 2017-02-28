@@ -13,8 +13,8 @@ urlpatterns = [
     url(r"^topic$", TopicListView.as_view(), name="topic-list"),
 
     url(r"^course/create$", CourseCreateView.as_view(), name="course-create"),
-    url(r"^course/edit/(?P<topic_id>\d+)$", CourseEditView.as_view(), name="course-edit"),
-    url(r"^(?P<course_id>\d+)$", CourseDetailView.as_view(), name="course-detail"),
+    url(r"^course/edit/(?P<pk>\d+)$", CourseEditView.as_view(), name="course-edit"),
+    url(r"^course/(?P<pk>\d+)$", CourseDetailView.as_view(), name="course-detail"),
     url(r"^course$", CourseListView.as_view(), name="course-list"),
 ]
 

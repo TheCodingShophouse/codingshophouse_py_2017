@@ -7,25 +7,25 @@ from course.models import Course
 from django.urls import reverse_lazy
 
 
-class TopicListView(ListView):
+class CourseListView(ListView):
     model = Course
 
-class CourseView(DetailView):
+class CourseDetailView(DetailView):
     model = Course
     
-class TopicCreateView(CreateView):
+class CourseCreateView(CreateView):
     model = Course
-    fields = ["title", "description"]
+    fields = ["title", "description", "instructor"]
     success_url = reverse_lazy("course-list")
 
 
-class TopicEditView(UpdateView):
+class CourseEditView(UpdateView):
     model = Course
-    fields = ["title", "description"]
+    fields = ["title", "description", "instructor"]
     success_url = reverse_lazy("course-list")
 
 
-class TopicDeleteView(DeleteView):
+class CourseDeleteView(DeleteView):
     model = Course
     success_url = reverse_lazy("course-list")
     
