@@ -4,4 +4,9 @@
     <p>{{object.title}}</p>
     <p>{{object.description}}</p>
     <p>{{object.instructor}}</p>
+    <ul>
+    {% for topic in topics %}
+    <li>{{ topic.title}}</li>
+    {% endfor %}
+</ul>
 {% endblock %}

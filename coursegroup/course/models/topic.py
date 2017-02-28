@@ -5,3 +5,6 @@ class Topic(models.Model):
     title = models.CharField(max_length = 100)
     description = models.TextField()
     course = models.ForeignKey(Course, null = True) 
+    
+    def __str__(self):
+        return self.title

@@ -13,6 +13,13 @@ class CourseListView(ListView):
 class CourseDetailView(DetailView):
     model = Course
     
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        object = super().get_object()
+        topics = object.topic_set.all()
+        context["topics"] = topics
+        return context
+    
 class CourseCreateView(CreateView):
     model = Course
     fields = ["title", "description", "instructor"]
